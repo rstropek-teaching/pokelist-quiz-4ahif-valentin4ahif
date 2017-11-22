@@ -1,0 +1,5 @@
+body{
+    background-image: linear-gradient(to top, rgba(200, 200, 200, 0.8) 15%, rgba(100, 255, 20, 0.8) 50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
