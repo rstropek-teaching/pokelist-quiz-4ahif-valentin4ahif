@@ -10,7 +10,7 @@ async function listPokemons() {
 
     let html = '';
     for (const pokemon of pokelist.results) {
-        html += `<tr><td>${pokemon.name}</td><td><button type="button" onclick="showPokeDetails('${pokemon.url}')">Details</button></td></tr>`
+        html += `<tr><td class="pokenameTD" >${pokemon.name}</td><td class="buttonTD"><button type="button" onclick="showPokeDetails('${pokemon.url}')">Details</button></td></tr>`
     }
 
     $('#pokemons')[0].innerHTML = html;

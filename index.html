@@ -9,18 +9,23 @@
 </head>
 
 <body>
-    <h1 id="listHeading">List of Pokemons:</h1>
-    <h1 id="singleHeading">Here are the details:</h1>
+    <div id="outerDiv">
+        <h1 id="listHeading">List of Pokemons:</h1>
+        <h1 id="singleHeading">Here are the details:</h1>
 
-    <table id="pokemons">
-    </table>
+        <div id="innerDiv">
+            <table id="pokemons">
+            </table>
 
-    <table id="pokemonDetail">
-    </table>
+            <table id="pokemonDetail">
+            </table>
 
-    <button type="button" id="btnPrev" onclick="btnPrevClick()">previous</button>
-    <button type="button" id="btnNext" onclick="btnNextClick()">next</button>
-    <button type="button" id="btnBack" onclick="btnBackClick()">back</button>
+            <button type="button" id="btnPrev" onclick="btnPrevClick()">previous</button>
+            <button type="button" id="btnNext" onclick="btnNextClick()">next</button>
+            <button type="button" id="btnBack" onclick="btnBackClick()">back</button>
+        </div>
+
+    </div>
 
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="index.js"></script>
